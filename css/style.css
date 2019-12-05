@@ -1,0 +1,34 @@
+/* debug  */
+/* [class*="box_"] {
+  background-color: lightblue;
+}
+[class*="container"] {
+  height: 300px;
+  background-color: lightyellow;
+}
+[class*="row"] {
+  background-color: lightgreen;
+}
+[class*="col-"] {
+  background-color: coral;
+
+} */
+
+/* navbar */
+.box_navbar {
+  height: 70px;
+  line-height: 70px;
+  background-color: silver;
+}
+.nav_burger {
+  text-align: right;
+}
+/* .ul_left {
+  text-align: left;
+} */
+.nav_burger ul {
+  list-style: none;
+}
+.nav_burger ul li {
+  display: inline;
+}
