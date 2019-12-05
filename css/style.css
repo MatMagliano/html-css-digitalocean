@@ -8,12 +8,14 @@
 }
 [class*="row"] {
   background-color: lightgreen;
-}
-[class*="col-"] {
-  background-color: coral;
-
 } */
+/* [class*="col-"] {
+  background-color: coral; */
 
+}
+main {
+  margin-top: 70px;
+}
 /* navbar */
 .box_navbar {
   height: 70px;
@@ -23,12 +25,30 @@
 .nav_burger {
   text-align: right;
 }
-/* .ul_left {
+.ul_left {
   text-align: left;
-} */
+}
+.ul_right {
+  text-align: right;
+}
 .nav_burger ul {
   list-style: none;
 }
 .nav_burger ul li {
   display: inline;
+}
+
+.box_header_t {
+  padding: 20px 0;
+  background-color: lightblue;
+}
+
+
+
+/* query */
+@media screen and (min-width: 992px) {
+  .wrapper_lg_70 {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
