@@ -13,13 +13,18 @@
   background-color: coral; */
 
 }
-main {
+body {
   margin-top: 70px;
 }
 /* navbar */
-.box_navbar {
+.fix_navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
   height: 70px;
   line-height: 70px;
+  z-index: 7;
   background-color: silver;
 }
 .nav_burger {
@@ -38,9 +43,18 @@ main {
   display: inline;
 }
 
-.box_header_t {
+/* jumbo */
+.jumbo {
+  margin-top: 70px;
   padding: 20px 0;
   background-color: lightblue;
+}
+
+/* header bottom */
+.header_b {
+  padding: 20px 0;
+  text-align: center;
+  background-color: lightgrey;
 }
 
 
