@@ -2,11 +2,13 @@
 body {
   margin-top: 70px;
 }
+[class*="title_"] {
+  padding: 0 15px;
+  text-align: center;
+}
 .container_my_all {
   width: 100%;
-  height: 400px;
   padding: 15px;
-  background-color: lightgreen;
 }
 .container_my_all::after {
   content: '';
@@ -60,30 +62,34 @@ ul {
   text-align: center;
   background-color: lightgrey;
 }
+
+/* deloy */
 .box_deploy {
   padding: 20px 0;
-}
-.title_deploy {
-  padding: 0 15px;
-  text-align: center;
 }
 .float_icons_list {
   float: left;
   width: 30%;
-  height: 200px;
-  background-color: lightyellow;
 }
 .float_icons_right {
   float: left;
   width: 70%;
-  height: 200px;
-  background-color: coral;
 }
-
 .float_icons_list ul {
-  margin-left: 70px;
   padding-left: 10px;
   border-left: 1px solid #000;
+}
+
+/* designed */
+.img_designed {
+  text-align: center;
+}
+.img_designed img {
+  width: 90%;
+  padding: 20px 0;
+}
+.img_designed ul li {
+  display: inline;
 }
 
 
@@ -102,19 +108,28 @@ ul {
     width: 90%;
     margin: 0 auto;
   }
+  .img_designed img {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  .title_deploy {
-    padding: 0 50px;
+  [class*="title_"] {
+    padding: 15px 50px;
   }
+  .float_icons_list ul {
+    margin-left: 20%;
+  }
+  .img_designed img {
+    width: 80%;
+  }
+
+}
+@media screen and (min-width: 768px) {
 
 }
 @media screen and (max-width: 768px) {
   [class*="float_icons_"] {
     float: none;
     width: 100%;
-  }
-  .float_icons_list ul {
-    margin: 0;
   }
 }
