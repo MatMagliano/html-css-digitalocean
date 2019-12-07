@@ -98,11 +98,17 @@ ul {
   display: none;
 }
 .img_designed ul li a .coursor:hover{
-  
+
 }
 /* service */
 .list_service {
   padding: 15px 30px;
+}
+.list_service .country {
+  padding: 15px 0;
+}
+.list_service .country:not(:last-child) {
+  border-bottom: 1px solid #000;
 }
 
 
