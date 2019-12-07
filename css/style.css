@@ -91,12 +91,22 @@ ul {
 .img_designed ul li {
   display: inline;
 }
+.img_designed ul li a .coursor {
+  display: none;
+}
+.img_designed ul li a .coursor_none:hover{
+  display: none;
+}
+.img_designed ul li a .coursor:hover{
+  display: inline-block;
+}
 
 
 
 /* query */
 @media screen and (min-width: 992px) {
-  .wrapper_lg_70 {
+  .wrapper_lg_70,
+  .box_features {
     width: 70%;
     margin: 0 auto;
   }
