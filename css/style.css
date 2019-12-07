@@ -126,7 +126,7 @@ ul {
 .box_rocker {
   width: 30em;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 4em 0;
   text-align: center;
   border-radius: 5px;
   background-color: #fff;
@@ -134,6 +134,20 @@ ul {
 .box_rocker img{
   width: 100%;
   padding: 0 10px;
+}
+
+/* get */
+.box_get {
+  padding:5em 0;
+  text-align: center;
+}
+
+/* footer */
+.footer_list ul {
+  padding-left: 0;
+}
+.footer_list h4 {
+  text-transform: capitalize;
 }
 
 /* query */
