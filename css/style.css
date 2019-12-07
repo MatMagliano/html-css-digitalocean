@@ -98,7 +98,11 @@ ul {
   display: none;
 }
 .img_designed ul li a .coursor:hover{
-  display: inline-block;
+  
+}
+/* service */
+.list_service {
+  padding: 15px 30px;
 }
 
 
@@ -106,10 +110,12 @@ ul {
 /* query */
 @media screen and (min-width: 992px) {
   .wrapper_lg_70,
-  .box_features {
-    width: 70%;
+  .box_features,
+  .box_service {
+    width: 80%;
     margin: 0 auto;
   }
+
   .wrapper_lg_60 {
     width: 60%;
     margin: 0 auto;
@@ -121,10 +127,13 @@ ul {
   .img_designed img {
     width: 70%;
   }
+  .list_service {
+    font-size: 0.95em;
+  }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
   [class*="title_"] {
-    padding: 15px 50px;
+    padding: 15px 0;
   }
   .float_icons_list ul {
     margin-left: 20%;
