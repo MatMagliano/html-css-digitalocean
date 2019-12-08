@@ -323,7 +323,7 @@ button[type=button]:focus {
   #031B4E);
 }
 .box_get h1 {
-  padding: 20px;
+  padding-bottom: 20px;
   color: #FFF;
 }
 .box_get button {
