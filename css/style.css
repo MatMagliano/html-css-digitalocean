@@ -3,6 +3,13 @@ body {
   margin-top: 70px;
   font-family: Rubik;
 }
+h2 {
+  font-weight: 400;
+  color: #45516a;
+}
+p {
+  font-size: 1.429em;
+}
 [class*="title_"] {
   padding: 0 15px;
   text-align: center;
@@ -24,6 +31,21 @@ ul {
 }
 .padding_10 {
   padding-bottom: 15px;
+}
+input[type=text]:focus {
+  box-shadow: none;
+}
+button[type=button]:focus {
+  box-shadow: none;
+  outline: none;
+}
+[class*="btn_my_"] {
+  width: 100%;
+  height: 2.429em;
+  margin-bottom: 1.071em;
+  padding: 0.429em 0.857em;
+  border-radius: 0.357em;
+  background-color: yellow;
 }
 
 /* navbar */
@@ -85,9 +107,64 @@ ul {
 /* jumbo */
 .jumbo {
   margin-top: 70px;
-  padding: 20px 0;
-  background-color: lightblue;
+  padding: 4.286em 0;
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: none;
 }
+.jumbo_title {
+  padding: 2em 1.071em;
+}
+.jumbo_title h1 {
+  font-size: 2.857em;
+  font-weight: 700;
+  color: #fff;
+}
+.jumbo_title p {
+  color: #eff0f7;
+}
+.form_jumbo {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.250em 0.714em;
+  border-radius: 0.357em;
+  background-color: #fff;
+  text-align: center;
+}
+.form_jumbo h2:nth-child(2) {
+  color: #0147fd;
+}
+.btn_my_blue {
+  background-color: #5287e5;
+  color: #FFF;
+}
+.btn_my_white {
+  position: relative;
+  background-color: #FFF;
+  color: #5287e5;
+}
+.btn_my_white img {
+  position: absolute;
+  width: 1.2em;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 0.857em;
+}
+.form_jumbo p {
+  margin-bottom: 1.429em;
+  font-size: 0.9em;
+}
+.form_jumbo p a {
+  color: #0147fd;
+  text-decoration: underline;
+}
+.form_jumbo p a:hover {
+  color: #09183f;
+}
+
+
 
 /* header bottom */
 .header_b {
