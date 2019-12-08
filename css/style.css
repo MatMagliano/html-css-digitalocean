@@ -319,8 +319,19 @@ button[type=button]:focus {
 .box_get {
   padding:5em 0;
   text-align: center;
+  background: linear-gradient(#0147fd,
+  #031B4E);
 }
-
+.box_get h1 {
+  padding: 20px;
+  color: #FFF;
+}
+.box_get button {
+  color: #5287e5;
+}
+.box_get button:hover {
+  color: #5287e5;
+}
 /* footer */
 .footer_list ul {
   padding-left: 0;
