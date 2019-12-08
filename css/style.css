@@ -255,16 +255,42 @@ button[type=button]:focus {
   padding: 60px 0;
 
 }
-
+.box_features a{
+  color: #0147fd;
+}
+.box_features a i{
+  font-size: 0.9em;
+}
 /* service */
+.box_service {
+  padding: 60px 0;
+  background: linear-gradient(#0147fd,
+  #031B4E);
+}
+.title_service h2{
+  color: #fff;
+}
 .list_service {
   padding: 15px 30px;
 }
 .list_service .country {
-  padding: 15px 0;
+  padding: 5px 0;
+}
+.country p {
+  font-size:1em;
+  color: #fff;
+}
+.country_h {
+  font-weight: 500;
+}
+.country_p p {
+  color: #a1a5ac;
+}
+.country a {
+  color: #0ae5da;
 }
 .list_service .country:not(:last-child) {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fff;
 }
 
 /* development */
@@ -310,8 +336,7 @@ button[type=button]:focus {
 }
 @media screen and (min-width: 992px) {
   .wrapper_lg_70,
-  .box_features,
-  .box_service {
+  .box_features {
     width: 80%;
     margin: 0 auto;
   }
