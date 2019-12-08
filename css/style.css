@@ -164,14 +164,35 @@ button[type=button]:focus {
   color: #09183f;
 }
 
-
-
 /* header bottom */
 .header_b {
   padding: 20px 0;
   text-align: center;
-  background-color: lightgrey;
+  background-color: #eff0f7;
 }
+.header_b h5 {
+  text-transform: uppercase;
+  color: #aeb2bb;
+}
+.header_b i {
+  font-size: 0.9em;
+  color: #0147fd;
+}
+.header_b a {
+  color: #0147fd;
+}
+.header_b a:hover {
+  text-decoration: none;
+}
+.header_b_loghi .img_logo{
+  line-height: 100px;
+  vertical-align: middle;
+}
+.header_b_loghi img {
+  max-width: 100%;
+  vertical-align: middle;
+ }
+
 
 /* deloy */
 .box_deploy {
@@ -261,6 +282,7 @@ button[type=button]:focus {
 }
 
 /* query */
+
 @media screen and (min-width: 992px) {
   .wrapper_lg_70,
   .box_features,
@@ -283,6 +305,9 @@ button[type=button]:focus {
   .list_service {
     font-size: 0.95em;
   }
+  .header_b_loghi img {
+    width: 75%;
+   }
 
 }
 }
@@ -306,5 +331,12 @@ button[type=button]:focus {
     float: none;
     width: 100%;
   }
+
+
+  .img_logo img {
+    width: 11.5em;
+   }
+
+
 
 }
