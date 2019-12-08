@@ -4,7 +4,7 @@ body {
   font-family: Rubik;
 }
 h2 {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   font-weight: 400;
   color: #09183f;
 }
@@ -199,6 +199,9 @@ button[type=button]:focus {
   padding: 60px 0;
   color: #5b5b5b;
 }
+.box_deploy p {
+  margin-bottom: 40px;
+}
 .float_icons_list {
   float: left;
   width: 30%;
@@ -247,18 +250,12 @@ button[type=button]:focus {
 .rocker ul li {
   display: inline;
 }
-.img_designed ul li a .coursor,
-.rocker ul li a .coursor {
-  display: none;
+/* features */
+.box_features{
+  padding: 60px 0;
+
 }
-.img_designed ul li a .coursor_none:hover,
-.rocker ul li a .coursor_none:hover{
-  display: none;
-}
-.img_designed ul li a .coursor:hover,
-.rocker ul li a .coursor:hover{
-  display: contents;
-}
+
 /* service */
 .list_service {
   padding: 15px 30px;
