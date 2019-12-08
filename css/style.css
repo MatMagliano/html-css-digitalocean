@@ -304,14 +304,15 @@ button[type=button]:focus {
 .box_rocker {
   width: 30em;
   margin: 0 auto;
-  padding: 4em 0;
+  margin-bottom: 15px;
+  padding: 30px 20px;
   text-align: center;
   border-radius: 5px;
   background-color: #fff;
 }
 .box_rocker img{
   width: 100%;
-  padding: 0 10px;
+  padding-bottom: 20px;
 }
 
 /* get */
