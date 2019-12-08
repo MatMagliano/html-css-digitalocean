@@ -4,11 +4,15 @@ body {
   font-family: Rubik;
 }
 h2 {
+  padding-bottom: 20px;
   font-weight: 400;
-  color: #45516a;
+  color: #09183f;
 }
 p {
   font-size: 1.429em;
+}
+a:hover {
+  text-decoration: none;
 }
 [class*="title_"] {
   padding: 0 15px;
@@ -29,9 +33,7 @@ p {
 ul {
   list-style: none;
 }
-.padding_10 {
-  padding-bottom: 15px;
-}
+.
 input[type=text]:focus {
   box-shadow: none;
 }
@@ -91,7 +93,6 @@ button[type=button]:focus {
   color: #000;
 }
 .nav_burger ul li a:hover {
-  text-decoration: none;
   color: #5186e4;
 }
 .btn_nav {
@@ -166,7 +167,7 @@ button[type=button]:focus {
 
 /* header bottom */
 .header_b {
-  padding: 20px 0;
+  padding: 60px 0;
   text-align: center;
   background-color: #eff0f7;
 }
@@ -181,9 +182,6 @@ button[type=button]:focus {
 .header_b a {
   color: #0147fd;
 }
-.header_b a:hover {
-  text-decoration: none;
-}
 .header_b_loghi .img_logo{
   line-height: 100px;
   vertical-align: middle;
@@ -196,7 +194,8 @@ button[type=button]:focus {
 
 /* deloy */
 .box_deploy {
-  padding: 20px 0;
+  padding: 60px 0;
+  color: #5b5b5b;
 }
 .float_icons_list {
   float: left;
@@ -205,10 +204,22 @@ button[type=button]:focus {
 .float_icons_right {
   float: left;
   width: 70%;
+  font-size: 0.8em;
 }
 .float_icons_list ul {
   padding-left: 10px;
-  border-left: 1px solid #000;
+  border-left: 1px solid silver;
+}
+.float_icons_list ul li {
+  padding-bottom: 15px;
+  font-size: 1.429em;
+}
+.float_icons_list ul li a {
+  color: #5b5b5b;
+}
+.float_icons_right h4 {
+  padding: 20px 0;
+  color: #09183f;
 }
 
 /* designed */
@@ -282,7 +293,11 @@ button[type=button]:focus {
 }
 
 /* query */
-
+@media screen and (max-width: 1200px) {
+  .header_b_loghi img {
+    width: 75%;
+   }
+}
 @media screen and (min-width: 992px) {
   .wrapper_lg_70,
   .box_features,
@@ -306,8 +321,9 @@ button[type=button]:focus {
     font-size: 0.95em;
   }
   .header_b_loghi img {
-    width: 75%;
+    width: 85%;
    }
+
 
 }
 }
@@ -324,18 +340,22 @@ button[type=button]:focus {
 
 }
 @media screen and (min-width: 768px) {
-
+  .float_icons_list {
+    padding-left: 50px;
+  }
 }
 @media screen and (max-width: 768px) {
   [class*="float_icons_"] {
     float: none;
     width: 100%;
   }
-
-
   .img_logo img {
     width: 11.5em;
    }
+   .float_icons_right .container_my_all,
+   .icons_right {
+     padding-left: 0;
+    }
 
 
 
