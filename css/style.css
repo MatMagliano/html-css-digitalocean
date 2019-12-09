@@ -330,19 +330,34 @@ ul.list_logo li img {
 .box_get button:hover {
   color: #5287e5;
 }
+
 /* footer */
+.box_footer {
+  padding: 60px 0;
+  background-color: #031B4E;
+  color: #bbbfc7;
+}
+.footer_title ul li {
+  display: inline;
+  padding-right: 1em;
+  font-size: 1.7em;
+}
+.footer_title p{
+  padding-top: 10px;
+  color: #bbbfc7;
+}
 .footer_list ul {
   padding-left: 0;
+  line-height: 2em;
+  text-transform: capitalize;
+  font-size: 1.09em;
 }
 .footer_list h4 {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  color: #FFF;
 }
 
 /* query */
-@media screen and (max-width: 1200px) {
-
-}
-
 
 @media screen and (min-width: 992px) {
   .wrapper_lg_70,
